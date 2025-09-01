@@ -1,4 +1,4 @@
-//n-n_8266
+//n-1_8266
 
 #include <ESP8266WiFi.h>
 #include <espnow.h>
@@ -61,3 +61,4 @@ void loop() {
   esp_now_send(receiverMac, (uint8_t *)&data, sizeof(data));
   delay(1000);
 }
+
