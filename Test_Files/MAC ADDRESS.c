@@ -1,19 +1,7 @@
-//MAC ADDRESS 
-
-
-#include <WIFI.h>
-
-void setup(){
- Serial.begin(115200);
- delay(100);
-
- WiFi.mode(WIFI_STA);
-
- Serial.print("devcice mac address : ");
- Serial.println(WiFi.macAdress());
-
+#include <ESP8266WiFi.h>
+void setup() {
+  Serial.begin(115200);
+  WiFi.mode(WIFI_STA);
+  Serial.println(WiFi.macAddress());
 }
-
-void loop(){
-
-}
+void loop() {}
