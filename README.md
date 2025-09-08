@@ -3,13 +3,13 @@ Vital Watch – ESP-NOW Based Smart Healthcare System
 
 
 
-Introduction
+Introduction:
 
 The Vital Watch is a wearable healthcare monitoring system that uses ESP-NOW protocol for offline communication and a cloud dashboard for online monitoring. It enables real-time data sharing between patients and doctors, ensuring safety even without internet connectivity.
 
 
 
-Features
+Features:
 
 ESP-NOW communication (One-to-One, One-to-Many, Many-to-One, Many-to-Many)
 
@@ -24,7 +24,7 @@ Custom PCB with schematic and 3D models included
 
 
 
-Repository Contents
+Repository Contents:
 
 test_codes/ – Sample ESP-NOW communication codes
 
@@ -43,7 +43,7 @@ final_code/ – Complete firmware for hub and wearable devices
 
 
 
-Implementation
+Implementation:
 
 Hardware: ESP32, biomedical sensors, custom PCB
 
@@ -54,7 +54,7 @@ Communication: ESP-NOW (offline), Wi-Fi + cloud (online)
 
 
 
-Applications
+Applications:
 
 Hospital patient monitoring
 
