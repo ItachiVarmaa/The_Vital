@@ -15,11 +15,17 @@ Custom PCB with schematic and 3D models included
 
 Repository Contents
 test_codes/ – Sample ESP-NOW communication codes
+
 circuits/ – Circuit diagrams for devices
+
 flowcharts/ – System workflow diagrams
+
 architecture/ – ESP-NOW and system architecture visuals
+
 ui_dashboard/ – Doctor and emergency dashboard interfaces
+
 pcb_design/ – Schematics, PCB layouts, and 3D renders
+
 final_code/ – Complete firmware for hub and wearable devices
 
 
